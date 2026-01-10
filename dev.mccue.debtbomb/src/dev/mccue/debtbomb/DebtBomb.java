@@ -18,7 +18,7 @@ public @interface DebtBomb {
     String expiresAt();
 
     /// Context on why this debt exists.
-    String reason();
+    String reason() default "";
 
     /// Team or Individual responsible
     String owner() default "";
