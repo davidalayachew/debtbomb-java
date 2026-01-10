@@ -1,0 +1,22 @@
+<project>
+    <dependencies>
+        <dependency>
+            <groupId>dev.mccue</groupId>
+            <artifactId>tools-jdk</artifactId>
+            <version>2025.01.31</version>
+            <usage>--module-path</usage>
+            <dependencySets>
+                <scripts/>
+            </dependencySets>
+        </dependency>
+    </dependencies>
+
+    <argumentFiles>
+        <build>
+            <dependencySet>scripts</dependencySet>
+            <argument>--add-modules=ALL-MODULE-PATH</argument>
+            <path>scripts/Build.java</path>
+        </build>
+    </argumentFiles>
+
+</project>

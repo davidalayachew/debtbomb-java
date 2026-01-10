@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/debtbomb2.iml" filepath="$PROJECT_DIR$/debtbomb2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dev.mccue.debtbomb/dev.mccue.debtbomb.iml" filepath="$PROJECT_DIR$/dev.mccue.debtbomb/dev.mccue.debtbomb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dev.mccue.debtbomb.example/dev.mccue.debtbomb.example.iml" filepath="$PROJECT_DIR$/dev.mccue.debtbomb.example/dev.mccue.debtbomb.example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dev.mccue.debtbomb.processor/dev.mccue.debtbomb.processor.iml" filepath="$PROJECT_DIR$/dev.mccue.debtbomb.processor/dev.mccue.debtbomb.processor.iml" />
+    </modules>
+  </component>
+</project>
