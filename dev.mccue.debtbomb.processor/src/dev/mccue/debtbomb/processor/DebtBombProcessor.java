@@ -1,8 +1,13 @@
 package dev.mccue.debtbomb.processor;
 
-import module dev.mccue.debtbomb;
-import module java.compiler;
-import module java.base;
+import dev.mccue.debtbomb.*;
+import javax.annotation.processing.*;
+import javax.lang.model.*;
+import javax.lang.model.element.*;
+import java.time.*;
+import java.time.format.*;
+import java.util.*;
+import java.util.stream.*;
 
 /// Annotation processor that handles {@link dev.mccue.debtbomb.DebtBomb} annotations.
 public final class DebtBombProcessor extends AbstractProcessor {

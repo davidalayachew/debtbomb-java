@@ -30,3 +30,6 @@ bin/
 .DS_Store
 dependencySets
 build
+
+### Maven ###
+target
