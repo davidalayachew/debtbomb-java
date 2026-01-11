@@ -35,7 +35,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>dev.mccue</groupId>
-			<artifactId>debtbomb.processor</artifactId>
+			<artifactId>debtbomb</artifactId>
 		</dependency>
 	</dependencies>
 
